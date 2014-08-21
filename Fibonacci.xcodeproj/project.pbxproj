@@ -12,6 +12,7 @@
 		18A2FA1919A6610F0021434D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A2FA1719A6610F0021434D /* Main.storyboard */; };
 		18A2FA1B19A6610F0021434D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A2FA1A19A6610F0021434D /* Images.xcassets */; };
 		18A2FA2719A6610F0021434D /* FibonacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2FA2619A6610F0021434D /* FibonacciTests.swift */; };
+		18A2FA3119A6614B0021434D /* FibonacciModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2FA3019A6614B0021434D /* FibonacciModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		18A2FA2019A6610F0021434D /* FibonacciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A2FA2519A6610F0021434D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A2FA2619A6610F0021434D /* FibonacciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciTests.swift; sourceTree = "<group>"; };
+		18A2FA3019A6614B0021434D /* FibonacciModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		18A2FA1019A6610F0021434D /* Fibonacci */ = {
 			isa = PBXGroup;
 			children = (
+				18A2FA3019A6614B0021434D /* FibonacciModel.swift */,
 				18A2FA1319A6610F0021434D /* AppDelegate.swift */,
 				18A2FA1519A6610F0021434D /* ViewController.swift */,
 				18A2FA1719A6610F0021434D /* Main.storyboard */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A2FA3119A6614B0021434D /* FibonacciModel.swift in Sources */,
 				18A2FA1619A6610F0021434D /* ViewController.swift in Sources */,
 				18A2FA1419A6610F0021434D /* AppDelegate.swift in Sources */,
 			);
